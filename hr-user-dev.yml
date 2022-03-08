@@ -1,0 +1,11 @@
+test:
+    config: My config value dev profile
+  
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5434/db_hr_user
+        username: postgres
+        password: 1234567
+    jpa:
+        hibernate:
+            ddl-auto: update
